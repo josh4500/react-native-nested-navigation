@@ -6,7 +6,7 @@ export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    NestedNavigation.multiply(3, 7).then(setResult);
+    NestedNavigation.multiply(3, 70).then(setResult);
   }, []);
 
   return (
